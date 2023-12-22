@@ -5,8 +5,7 @@ from math import sqrt
 
 
 def open_read_file(file_name):
-    """read from file
-    add to array
+    """read from file add to array
     """
     with open(file_name, "r", encoding="utf-8") as file:
         lines = file.readlines()
